@@ -7,7 +7,18 @@ You can use palletetown to:
 * draw a pokemon sprite,
 * get RGB color values from the sprite.
 
-Check out the [examples.ipynb](https://github.com/rowland-208/palettetown/blob/main/etc/examples.ipynb) jupyter notebook for examples.
+The easiest way to get started with palettetown is the set_rc command:
+
+```
+import palletetown.pokeplot as pkp
+
+pkp.set_rc('pikachu')
+```
+
+This will set the colors of your plot to match the colors of the pokemon.
+It workes by setting the prop_cycle and cmap matplotlib rc parameters.
+
+Check out the [examples.ipynb](https://github.com/rowland-208/palettetown/blob/main/etc/examples.ipynb) jupyter notebook for usage examples.
 
 ![Sample image](https://github.com/rowland-208/palettetown/blob/main/etc/samples.png?raw=True)
 
