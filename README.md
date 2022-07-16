@@ -7,6 +7,10 @@ You can use palletetown to:
 * draw a pokemon sprite,
 * get RGB color values from the sprite.
 
+Check out the [examples.ipynb](https://github.com/rowland-208/palettetown/blob/main/etc/examples.ipynb) jupyter notebook for examples.
+
+![Sample image](https://github.com/rowland-208/palettetown/blob/main/etc/samples.png?raw=True)
+
 The pokeplot module handles high-level user interactions.
 Check out the jupyter notebook on our homepage for examples,
 or try these pokeplot features with your own plots.
